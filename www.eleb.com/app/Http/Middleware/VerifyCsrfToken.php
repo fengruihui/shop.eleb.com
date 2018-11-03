@@ -13,5 +13,13 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
+        'user/regist',//用户注册
+        'login',//用户登录
+        'add',//添加地址
+        'update',
+        'cart/add',
+        'user/change',//密码修改
+        'user/forget',
+        'shop/addorder'
     ];
 }
